@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="shortcut icon" href="//abs.twimg.com/favicons/twitter.3.ico" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+    />
+
+    <link rel="stylesheet" href="css/output.css" />
+  </head>
+  <body class="bg-black text-white">
+    <div class="container flex w-[80vw] m-auto">
+      <div class="left w-[15vw] flex flex-col max-xl:w-[15vw]">
+        <ul>
+          <li class="cursor-pointer my-6 flex justify-start items-center">
+            <img src="media/logo.png" width="20" alt="" class="invert" />
+          </li>
+          <li
+            class="cursor-pointer m-1 p-3 flex justify-start items-center rounded-full hover:bg-[#202327]"
+          >
+            <span class="material-symbols-outlined cursor-pointer"> home </span
+            ><span class="max-xl:hidden">Home</span>
+          </li>
+          <li
+            class="cursor-pointer m-1 p-3 flex justify-start items-center rounded-full hover:bg-[#202327]"
+          >
+            <span class="material-symbols-outlined cursor-pointer">
+              search </span
+            ><span class="max-xl:hidden">Explore</span>
+          </li>
+          <li
+            class="cursor-pointer m-1 p-3 flex justify-start items-center rounded-full hover:bg-[#202327]"
+          >
+            <span class="material-symbols-outlined cursor-pointer">
+              notifications </span
+            ><span class="max-xl:hidden">Notifications</span>
+          </li>
+          <li
+            class="cursor-pointer m-1 p-3 flex justify-start items-center rounded-full hover:bg-[#202327]"
+          >
+            <span class="material-symbols-outlined cursor-pointer"> chat </span
+            ><span class="max-xl:hidden">Messages</span>
+          </li>
+
+          <li
+            class="cursor-pointer m-1 p-3 flex justify-start items-center rounded-full hover:bg-[#202327]"
+          >
+            <span class="material-symbols-outlined cursor-pointer">
+              trending_up </span
+            ><span class="max-xl:hidden">Grok</span>
+          </li>
+          <li
+            class="cursor-pointer m-1 p-3 flex justify-start items-center rounded-full hover:bg-[#202327]"
+          >
+            <span class="material-symbols-outlined cursor-pointer">
+              person </span
+            ><span class="max-xl:hidden">Profile</span>
+          </li>
+          <li
+            class="cursor-pointer m-1 p-3 flex justify-start items-center rounded-full hover:bg-[#202327]"
+          >
+            <span class="material-symbols-outlined cursor-pointer">
+              more_horiz </span
+            ><span class="max-xl:hidden">More</span>
+          </li>
+          <li
+            class="cursor-pointer m-1 p-3 inline-flex justify-start items-center rounded-full max-xl:hidden"
+          >
+            <button class="bg-white text-black py-1 rounded-full flex items-center p-3">
+              <span class="material-symbols-outlined"> add_box </span>
+              <span> Post </span>
+            </button>
+          </li>
+          <li class="flex items-center gap-2 my-12 max-xl:hidden">
+            <span
+              ><img
+                src="https://pbs.twimg.com/profile_images/1845851620136910848/CTF9T4G5_x96.jpg"
+                alt=""
+                class="w-8 rounded-full" /></span
+            ><span>Ujjwal Kumar</span>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="mid w-[45vw] h-[100vh] overflow-auto border border-x-white border-y-black max-xl:w-[65vw] max-xl:text-xs"
+      >
+        <div class="top flex justify-around items-center h-12">
+          <span class="relative font-bold"
+            ><span
+              class="absolute w-14 h-1 bg-blue-400 rounded-full bottom-[-10px] z-10"
+            ></span
+             class=" max-xl:text-xs">For You</span
+          >
+          <span class="text-gray-400 max-xl:text-xs">Following</span>
+        </div>
+        <hr />
+        <div class="mainCont">
+          <div class="flex items-center my-3 mx-2 gap-2">
+            <div>
+              <img
+                src="https://pbs.twimg.com/profile_images/1845851620136910848/CTF9T4G5_x96.jpg"
+                alt=""
+                class="w-10 rounded-full m-4"
+              />
+            </div>
+            <div class="w-full flex flex-col gap-3 text-xs">
+              <input
+                type="text"
+                placeholder="What is happening?!"
+                class="bg-black w-full p-3 rounded-full"
+              />
+              <div class="flex items-center gap-2 text-blue-400 text-xs">
+                <span class="material-symbols-outlined cursor-pointer">
+                  public
+                </span>
+                <span>Everyone can reply</span>
+              </div>
+              <div class="flex justify-between text-xs max-xl:hidden">
+                <div class="text-blue-400">
+                  <span class="material-symbols-outlined cursor-pointer">
+                    image
+                  </span>
+                  <span class="material-symbols-outlined cursor-pointer">
+                    gif_box
+                  </span>
+                  <span class="material-symbols-outlined cursor-pointer">
+                    trending_up
+                  </span>
+                  <span class="material-symbols-outlined cursor-pointer">
+                    list_alt
+                  </span>
+                  <span class="material-symbols-outlined cursor-pointer">
+                    mood
+                  </span>
+                  <span class="material-symbols-outlined cursor-pointer">
+                    date_range
+                  </span>
+                  <span class="material-symbols-outlined cursor-pointer">
+                    location_on
+                  </span>
+                </div>
+                <button class="bg-white w-28 text-black py-1 rounded-full">
+                  Post
+                </button>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div class="post flex gap-3 my-3">
+            <div>
+              <img
+                src="https://pbs.twimg.com/profile_images/1678360651507585026/Kn8Z0J1__400x400.jpg"
+                alt=""
+                class="w-10 rounded-full m-4 max-xl:w-7"
+              />
+            </div>
+            <div class="flex flex-col">
+              <div class="flex flex-col my-2">
+                <h2 class="font-bold max-xl:text-xs">Samay Raina</h2>
+                <span class="font-thin text-gray-400 max-xl:text-xs">@ReheSamay</span>
+                <span class="font-thin text-white max-xl:text-xs">Another show soon!</span>
+              </div>
+              <div class="my-3">
+                <img
+                  src="https://pbs.twimg.com/profile_banners/988531805904097284/1698198029/1080x360"
+                  alt=""
+                  class="w-[35vw] rounded-lg max-xl:w[20vw]"
+                />
+              </div>
+              <div class="flex justify-around items-center">
+                <span
+                  class="text-gray-400 cursor-pointer hover:text-blue-500 flex items-center gap-1"
+                >
+                  <span class="material-symbols-outlined max-xl:text-xs"> comment </span>
+                  <span class="text-xs max-xl:text-xs">774</span>
+                </span>
+                <span
+                  class="text-gray-400 cursor-pointer hover:text-green-500 flex items-center gap-1 max-xl:hidden"
+                >
+                  <span class="material-symbols-outlined max-xl:text-xs"> ios_share </span>
+                  <span class="text-xs max-xl:text-xs">1.1K</span>
+                </span>
+                <span
+                  class="text-gray-400 cursor-pointer hover:text-pink-500 flex items-center gap-1"
+                >
+                  <span class="material-symbols-outlined max-xl:text-xs"> favorite </span>
+                  <span class="text-xs max-xl:text-xs">13K</span>
+                </span>
+                <span
+                  class="text-gray-400 cursor-pointer hover:text-blue-500 flex items-center gap-1 max-xl:hidden"
+                >
+                  <span class="material-symbols-outlined max-xl:text-xs"> bar_chart </span>
+                  <span class="text-xs max-xl:text-xs">955K</span> </span
+                >
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div class="post flex gap-3 my-3">
+            <div>
+              <img
+                src="https://pbs.twimg.com/profile_images/1845851620136910848/CTF9T4G5_x96.jpg"
+                alt=""
+                class="w-10 rounded-full m-4 max-xl:w-7"
+              />
+            </div>
+            <div class="flex flex-col">
+              <div class="flex flex-col my-2">
+                <h2 class="font-bold max-xl:text-xs">Ujjwal</h2>
+                <span class="font-thin text-gray-400 max-xl:text-xs">@ujjwalkumar1108</span>
+                <span class="font-thin text-white max-xl:text-xs">I guess LinkedIn 😂</span>
+              </div>
+              <div class="my-3">
+                <img
+                  src="https://pbs.twimg.com/media/GdMU7U2WcAQS3NE?format=jpg&name=900x900"
+                  alt=""
+                  class="w-[35vw] rounded-lg max-xl:w[20vw]"
+                />
+              </div>
+              <div class="flex justify-around items-center">
+                <span
+                  class="text-gray-400 cursor-pointer hover:text-blue-500 flex items-center gap-1"
+                >
+                  <span class="material-symbols-outlined max-xl:text-xs"> comment </span>
+                  <span class="text-xs max-xl:text-xs">774</span>
+                </span>
+                <span
+                  class="text-gray-400 cursor-pointer hover:text-green-500 flex items-center gap-1 max-xl:hidden"
+                >
+                  <span class="material-symbols-outlined max-xl:text-xs"> ios_share </span>
+                  <span class="text-xs max-xl:text-xs">1.1K</span>
+                </span>
+                <span
+                  class="text-gray-400 cursor-pointer hover:text-pink-500 flex items-center gap-1"
+                >
+                  <span class="material-symbols-outlined max-xl:text-xs"> favorite </span>
+                  <span class="text-xs max-xl:text-xs">13K</span>
+                </span>
+                <span
+                  class="text-gray-400 cursor-pointer hover:text-blue-500 flex items-center gap-1 max-xl:hidden"
+                >
+                  <span class="material-symbols-outlined max-xl:text-xs"> bar_chart </span>
+                  <span class="text-xs max-xl:text-xs">955K</span> </span
+                >
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div class="post flex gap-3 my-3">
+            <div>
+              <img
+                src="https://pbs.twimg.com/profile_images/1822522403534127104/TE2LJzjP_400x400.jpg"
+                alt=""
+                class="w-10 rounded-full m-4 max-xl:w-7"
+              />
+            </div>
+            <div class="flex flex-col">
+              <div class="flex flex-col my-2">
+                <h2 class="font-bold">Krishna Kumar</h2>
+                <span class="font-thin text-gray-400 max-xl:text-xs">@krishna_1710</span>
+                <span class="font-thin text-white max-xl:text-xs">What happened?</span>
+              </div>
+              <div class="my-3">
+                <img
+                  src="https://pbs.twimg.com/profile_images/1822522403534127104/TE2LJzjP_400x400.jpg"
+                  alt=""
+                  class="w-[35vw] rounded-lg max-xl:w[20vw]"
+                />
+              </div>
+              <div class="flex justify-around items-center">
+                <span
+                  class="text-gray-400 cursor-pointer hover:text-blue-500 flex items-center gap-1"
+                >
+                  <span class="material-symbols-outlined max-xl:text-xs"> comment </span>
+                  <span class="text-xs max-xl:text-xs">774</span>
+                </span>
+                <span
+                  class="text-gray-400 cursor-pointer hover:text-green-500 flex items-center gap-1 max-xl:hidden"
+                >
+                  <span class="material-symbols-outlined max-xl:text-xs"> ios_share </span>
+                  <span class="text-xs max-xl:text-xs">1.1K</span>
+                </span>
+                <span
+                  class="text-gray-400 cursor-pointer hover:text-pink-500 flex items-center gap-1"
+                >
+                  <span class="material-symbols-outlined max-xl:text-xs"> favorite </span>
+                  <span class="text-xs max-xl:text-xs">13K</span>
+                </span>
+                <span
+                  class="text-gray-400 cursor-pointer hover:text-blue-500 flex items-center gap-1 max-xl:hidden"
+                >
+                  <span class="material-symbols-outlined max-xl:text-xs"> bar_chart </span>
+                  <span class="text-xs max-xl:text-xs">955K</span> </span
+                >
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div class="post flex gap-3 my-3">
+            <div>
+              <img
+                src="https://pbs.twimg.com/profile_images/1833509376528945157/5AeMNn9f_bigger.jpg"
+                alt=""
+                class="w-10 rounded-full m-4 max-xl:w-7"
+              />
+            </div>
+            <div class="flex flex-col">
+              <div class="flex flex-col my-2">
+                <h2 class="font-bold">Modi</h2>
+                <span class="font-thin text-gray-400 max-xl:text-xs">@modi</span>
+                <span class="font-thin text-white max-xl:text-xs"
+                  >Paid last respects</span
+                >
+              </div>
+              <div class="my-3">
+                <img
+                  src="https://pbs.twimg.com/media/Gf4NKNQagAAtMQ9?format=jpg&name=small"
+                  alt=""
+                  class="w-[35vw] rounded-lg max-xl:w[20vw]"
+                />
+              </div>
+              <div class="flex justify-around items-center">
+                <span
+                  class="text-gray-400 cursor-pointer hover:text-blue-500 flex items-center gap-1"
+                >
+                  <span class="material-symbols-outlined max-xl:text-xs"> comment </span>
+                  <span class="text-xs max-xl:text-xs">774</span>
+                </span>
+                <span
+                  class="text-gray-400 cursor-pointer hover:text-green-500 flex items-center gap-1 max-xl:hidden"
+                >
+                  <span class="material-symbols-outlined max-xl:text-xs"> ios_share </span>
+                  <span class="text-xs max-xl:text-xs">1.1K</span>
+                </span>
+                <span
+                  class="text-gray-400 cursor-pointer hover:text-pink-500 flex items-center gap-1"
+                >
+                  <span class="material-symbols-outlined max-xl:text-xs"> favorite </span>
+                  <span class="text-xs max-xl:text-xs">13K</span>
+                </span>
+                <span
+                  class="text-gray-400 cursor-pointer hover:text-blue-500 flex items-center gap-1 max-xl:hidden"
+                >
+                  <span class="material-symbols-outlined max-xl:text-xs"> bar_chart </span>
+                  <span class="text-xs max-xl:text-xs">955K</span> </span
+                >
+              </div>
+            </div>
+          </div>
+          <hr />
+        </div>
+      </div>
+      <div class="right w-[20vw] max-xl:hidden">
+        <div class="search">
+          <input
+            type="text"
+            placeholder="Search"
+            class="bg-[#202327] px-3 py-1 m-2 rounded-full"
+          />
+        </div>
+        <div class="whatshapp bg-[#202327] px-3 py-1 m-2 rounded-lg">
+          <h2 class="text-lg font-bold my-4">What's Happening</h2>
+          <hr />
+          <div class="flex flex-col my-4">
+            <span class="text-xs text-gray-400">Trending</span>
+            <span class="text-xs font-medium">#Coscto</span>
+            <span class="text-xs text-gray-400">61.6K posts</span>
+          </div>
+          <div class="flex flex-col my-4">
+            <span class="text-xs text-gray-400">Trending in Politics</span>
+            <span class="text-xs font-medium">#SupremeCourt</span>
+            <span class="text-xs text-gray-400">61.6K posts</span>
+          </div>
+          <div class="flex flex-col my-4">
+            <span class="text-xs text-gray-400">Trending in India</span>
+            <span class="text-xs font-medium">#ManmohanSinghfuneral</span>
+            <span class="text-xs text-gray-400">61.6K posts</span>
+          </div>
+        </div>
+        <div class="whatshapp bg-[#202327] px-3 py-1 m-2 rounded-lg">
+          <h2 class="text-lg font-bold my-4">Who To Follow</h2>
+          <hr />
+          <div class="flex flex-row my-4 justify-between items-center">
+            <div class="flex items-center gap-3">
+              <span class="text-xs text-gray-400"
+                ><img
+                  src="https://pbs.twimg.com/profile_images/1313394640393957378/L0W5hykJ_x96.jpg"
+                  alt=""
+                  class="w-9 rounded-md"
+              /></span>
+              <span class="text-xs font-medium text-gray-400">@gmail</span>
+            </div>
+            <button class="bg-white text-black px-3 py-1 rounded-full">
+              Follow
+            </button>
+          </div>
+          <div class="flex flex-row my-4 justify-between items-center">
+            <div class="flex items-center gap-3">
+              <span class="text-xs text-gray-400"
+                ><img
+                  src="https://pbs.twimg.com/profile_images/1808484202582519808/IOaODrgo_bigger.jpg"
+                  alt=""
+                  class="w-9 rounded-md"
+              /></span>
+              <span class="text-xs font-medium text-gray-400">@sayname34</span>
+            </div>
+            <button class="bg-white text-black px-3 py-1 rounded-full">
+              Follow
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
